@@ -31,7 +31,7 @@ public:
 
 	/* constructor & destructor */
 	SegmentObservingVector(std::string id);
-	virtual ~SegmentObservingVector() = default;
+	//virtual ~SegmentObservingVector() = default;
 
 	/* public member functions */
 	void addData(ObservedValue<std::valarray<T>>& data);

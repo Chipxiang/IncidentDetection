@@ -30,7 +30,7 @@ public:
 
 	ObservedValue(const ObservedValue<T>& ov);
 	ObservedValue(const T& v);
-	virtual ~ObservedValue() = default;
+	//virtual ObservedValue() = default;
 
 	void initLatentParams(size_t k);
 };

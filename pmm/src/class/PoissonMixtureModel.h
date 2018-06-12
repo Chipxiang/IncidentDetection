@@ -57,7 +57,7 @@ public:
 	/* constructor & destructor */
 	PoissonMixtureModel(size_t k, size_t d, bool doSrand);
 	PoissonMixtureModel(size_t k, size_t d);
-	virtual ~PoissonMixtureModel() = default;
+	//virtual ~PoissonMixtureModel() = default;
 
 	/* public member interface implementation */
 	virtual void validateDataset(void);
